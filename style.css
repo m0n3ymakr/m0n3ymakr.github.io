@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #FFF;
+    background: url("bg.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+
+}
+.title{
+    margin:60px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 60px;
+    color: yellow;
+}
+.container{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: #30475E;
+    margin: 1px;
+
+}
+.img-container{
+    height: 100%;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 95%;
+    height: 100%;
+    margin-left:2%;
+}
+.description-container{
+    height: 99%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    color: #E7DEC8;
+}
+.title-container{
+    height:40%;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.title-container h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FFF;
+}
+.title-container h1:hover{
+    color: yellow;
+}
+.description{
+    height: 60%;
+}
